@@ -174,3 +174,92 @@ body {
     color: #888;
     font-size: 16px;
   }
+ @media screen and (max-width: 1050px) and (min-width:500px) {
+    .navbar {
+
+
+    }
+
+    .nazwa {
+      font-size: 20px;
+      position: relative;
+      top: 1px;
+    
+
+    }
+
+    .nazwa img {
+
+    }
+
+    .pgora {
+      font-size: 15px;
+      position: relative;
+      bottom: 50px;
+
+    }
+
+    .buty,.spodnie,.koszulki,.bluzy {
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar{
+    height: 150px;
+  }
+    .nazwa {
+  font-size:20px ;
+  align-items: center;
+  position: relative;
+    }
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 0px;
+        font-size: 15px;
+
+    }
+  }
+  @media screen and (max-width: 400px) {
+  .navbar{
+    height: 150px;
+  }
+    .nazwa {
+  font-size:20px ;
+  align-items: center;
+  position: relative;
+    }
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 15px;
+        font-size: 15px;
+    }
+
+  }
+  @media screen and (max-width: 350px) {
+  .navbar{
+    height: 150px;
+  }
+  
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+  }

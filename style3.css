@@ -110,8 +110,9 @@
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
             width: 100%;
-            max-width: 1200px;
+            max-width: 1050px;
             margin: 0 auto;
+            
         }
         .card {
             background-color: #ffffff;
@@ -120,8 +121,7 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.15);
             transition: transform 0.3s ease;
             margin: 10px;
-            position: relative;
-            left: 100px;
+
         }
         .card:hover {
             transform: translateY(-5px);
@@ -154,3 +154,92 @@
             color: #999;
             font-size: 12px;
         }
+         @media screen and (max-width: 1050px) and (min-width:500px) {
+    .navbar {
+
+
+    }
+
+    .nazwa {
+      font-size: 20px;
+      position: relative;
+      top: 1px;
+    
+
+    }
+
+    .nazwa img {
+
+    }
+
+    .pgora {
+      font-size: 15px;
+      position: relative;
+      bottom: 50px;
+
+    }
+
+    .buty,.spodnie,.koszulki,.bluzy {
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar{
+    height: 150px;
+  }
+    .nazwa {
+  font-size:20px ;
+  align-items: center;
+  position: relative;
+    }
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 0px;
+        font-size: 15px;
+
+    }
+  }
+  @media screen and (max-width: 400px) {
+  .navbar{
+    height: 150px;
+  }
+    .nazwa {
+  font-size:20px ;
+  align-items: center;
+  position: relative;
+    }
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 15px;
+        font-size: 15px;
+    }
+
+  }
+  @media screen and (max-width: 350px) {
+  .navbar{
+    height: 150px;
+  }
+  
+
+    .pgora {
+
+    }
+       .buty,.spodnie,.koszulki,.bluzy,.str_gl {
+        position: relative;
+        top: 100px;
+        left: 15px;
+        font-size: 10px;
+    }
+
+  }
