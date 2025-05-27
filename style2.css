@@ -26,9 +26,15 @@
     bottom: 100px;
     font-size: 30px;
 }
-.buty,.spodnie,.koszulki,.bluzy,.str_gl{
+.buty a,.spodnie a,.koszulki a,.bluzy a,.str_gl a{
     margin-right:30px ;
-    text-decoration: none; 
+    text-decoration: none;
+  color: gray; 
+  transition-duration: 1s;
+}
+.buty a:hover,.spodnie a:hover,.koszulki a:hover,.bluzy a:hover,.str_gl a:hover{
+color: black;
+animation-duration: 1s;
 }
        body {
             font-family: Arial, sans-serif;

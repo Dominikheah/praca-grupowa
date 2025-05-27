@@ -7,6 +7,8 @@ body {
     background-color: rgb(173, 173, 173);
     height: 100px;
     width: 100%;
+    text-decoration: none;
+    color: black;
 }
 .nazwa{
     display: flex;
@@ -17,8 +19,10 @@ body {
     bottom: 20px;
         color: #333; 
     text-decoration: none; 
-
+text-decoration: none;
+    color: black;    
 }
+
 .nazwa a:hover {
     color: #555; 
 }
@@ -36,13 +40,19 @@ body {
     bottom: 60px;
     font-size: 30px;
 }
-.buty,.spodnie,.koszulki,.bluzy{
+.buty a,.spodnie a,.koszulki a,.bluzy a,.str_gl a{
     margin-right:30px ;
-    text-decoration: none; 
+    text-decoration: none;
+  color: gray; 
+  transition-duration: 1s;
+}
+.buty a:hover,.spodnie a:hover,.koszulki a:hover,.bluzy a:hover,.str_gl a:hover{
+color: black;
+
+
 }
 .footer {
     background-color: rgb(173, 173, 173);
-    
     color: #fff;
     padding: 40px 20px 20px;
     font-family: Arial, sans-serif;
@@ -134,7 +144,9 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 20px;
   }
-
+.produkty a{
+  text-decoration: none;
+}
   .karta-produktu {
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -174,7 +186,7 @@ body {
     color: #888;
     font-size: 16px;
   }
- @media screen and (max-width: 1050px) and (min-width:500px) {
+  @media screen and (max-width: 1050px) and (min-width:500px) {
     .navbar {
 
 
